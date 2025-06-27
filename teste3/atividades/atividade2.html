@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        alert('Programa que verifica se é maior de idade ou não !')
+        let idade = parseInt(prompt('Digite sua idade :'));
+        let h1 = document.createElement('h1');
+        h1.innerHTML = idade >=18 ? `Você é maior de idade,pois você tem <span style="color:blue;font-family:Arial,sans-serif;"> ${idade} anos.</span>` : `Você é menor de idade,pois você tem <span style="color:red;font-family:Arial,sans-serif;"> ${idade} anos.</span>`
+        document.body.appendChild(h1)
+    </script>
+</body>
+</html>
