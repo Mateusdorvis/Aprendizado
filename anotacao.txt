@@ -1,0 +1,10 @@
+ANOTAÇÕES IMPORTANTES !
+Instalação do GIT :
+  a) No Linux 
+    - Não precisa ir no site, basta só procurar pelo diretório 
+    DEBIAN/UBUNTU
+        - sudo apt install git 
+    ARCH
+        - sudo pacman -S git
+  b) No Windows ! precisa ir no site  !
+     
