@@ -15,6 +15,7 @@ CASO GIT NÃO FOR RECONHECIDO NO WINDOWS :
    Variáveis do ambiente ->  Propriedades dio sistema -> PATH -> EDITAR -> novo -> COLOCA O DIRETÓRIO DENTRO DO PATH
 
 COMANDOS BASE DO GIT:
+--------------------------------------------------------------------------------------
   syntax : git [ACTION]
   EXAMPLE : git add 
   ---------------------------------------------------------------------------------
@@ -23,7 +24,9 @@ COMANDOS BASE DO GIT:
   commit -m "message" -> Confirma a alteração com uma string
   branch -M main -> cria uma nova branch (ramal)
   remote add origin  git@[URL] -> 
-  push -U origin [SUA_BRANCH] -> puxa a branch 
+  push -u origin [SUA_BRANCH] -> puxa a branch 
+     EXAMPLE : git push -U origin main -> supondo que a sua branch seja MAIN !
+     
 
 CONFIGURAÇÃO DE EMAIL :
    git config --global user.email "seuemail@gmail.com"
