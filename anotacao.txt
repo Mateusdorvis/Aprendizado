@@ -1,7 +1,7 @@
 ANOTAÇÕES IMPORTANTES !
 Instalação do GIT :
   a) No Linux 
-    - Não precisa ir no site, basta só procurar pelo diretório 
+    - Não precisa ir no site, basta só saber a sua distribuição que está instalada, no sheel pode digitar "uname -n" que mostra o nome da máquina ou "uname -a" que mostra tudo !
     DEBIAN/UBUNTU
         - sudo apt install git 
     ARCH
