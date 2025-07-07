@@ -6,6 +6,21 @@ Instalação do GIT :
         - sudo apt install git 
     ARCH
         - sudo pacman -S git
-        
+
   b) No Windows ! precisa ir no site  !
-     
+
+
+CASO GIT NÃO FOR RECONHECIDO NO WINDOWS :
+   Pegar o diretório padrão do GIT -> C:\Users\Program Files\git
+   Variáveis do ambiente ->  Propriedades dio sistema -> PATH -> EDITAR -> novo -> COLOCA O DIRETÓRIO DENTRO DO PATH
+
+COMANDOS BASE DO GIT
+  git [ACTION]
+  git add 
+  init -> Inicia o processo
+  add  -> adiciona o respositório
+  commit -m "message" -> Confirma a alteração com uma string
+
+CONFIGURAÇÃO DE EMAIL 
+   git config --global user.email "seuemail@gmail.com"
+   git config --global user.name "seu ID NO GITHUB"
