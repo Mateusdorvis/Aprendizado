@@ -6,5 +6,6 @@ Instalação do GIT :
         - sudo apt install git 
     ARCH
         - sudo pacman -S git
+        
   b) No Windows ! precisa ir no site  !
      
