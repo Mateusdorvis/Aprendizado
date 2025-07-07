@@ -22,8 +22,8 @@ COMANDOS BASE DO GIT:
   add  -> adiciona o respositório
   commit -m "message" -> Confirma a alteração com uma string
   branch -M main -> cria uma nova branch (ramal)
-  
-  remote add origin  [URL] -> 
+  remote add origin  git@[URL] -> 
+  push -U origin [SUA_BRANCH] -> puxa a branch 
 
 CONFIGURAÇÃO DE EMAIL :
    git config --global user.email "seuemail@gmail.com"
